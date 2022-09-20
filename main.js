@@ -1,6 +1,5 @@
 const prompt = require('prompt-sync')({sigint: true});
 
-
 console.log("Would you like to combine two colors or break a color apart?  Please enter either 'combine' or 'break':");
 let action = (prompt(">> "));
 let color1 = "white"

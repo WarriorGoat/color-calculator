@@ -1,7 +1,8 @@
+
 const prompt = require('prompt-sync')({sigint: true});
 
-
 console.log("This program will combine two primary colors to make a secondary color, or break a secondary color into it's two primary color components.");
+console.log("  ");
 console.log("Please enter the color or colors you would like us to work with.");
 let color1 = (prompt(">> "));
 let blue = color1.includes("blue")
